@@ -1,4 +1,5 @@
+var numero = 27;
 
-for (let i = 2; i <= 50; i += 2) {
-    console.log(i);
-}
+numero = numero / 2;
+
+console.log(numero.toFixed(2));
